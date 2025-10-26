@@ -11,13 +11,3 @@ In the transformer_based_pinn directory, execute: torchrun --nproc_per_node=4 ld
 
 Result Visualization
 Use: python analysis.py
-
-├── kinetic_simulation/        # MATLAB scripts for kinetic simulations
-│   ├── nvla1d.m               # Landau damping kinetic simulation
-│   └── t_test.m               # Data preprocessing
-│
-├── transformer_based_pinn/    # Python implementation of the Transformer-based PINN
-│   ├── ld_tf_ddp_pq.py        # Main training script
-│   └── analysis.py            # Visualization utilities
-│
-└── README.md
